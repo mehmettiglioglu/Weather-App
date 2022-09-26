@@ -58,3 +58,18 @@ body{
     padding: 0px 10px;
     cursor: pointer;
 }
+.random-btn:hover{
+    background-color: rgb(90, 136, 90);
+    color: white;
+    transition:0.4s all ;
+}
+.weather-situation,.weather-sunny{
+    width: 150px;
+    height: 150px;
+    display: none;
+}
+.weather-cloudy{
+    width: 250px;
+    height: 250px;
+    display: none;
+}
