@@ -1,0 +1,35 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background: url("https://wallpapercave.com/wp/wp8402961.jpg") no-repeat;
+    background-size: 100%;
+}
+.weather-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.weather-app:first-child{
+    margin-top: 200px;
+}
+.weather-app .search-bar input{
+    width: 400px;
+    height: 40px;
+    outline: 0;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 0 10px;
+
+}
+.weather-app .search-bar input ::placeholder{
+    color: lightgray;
+}
