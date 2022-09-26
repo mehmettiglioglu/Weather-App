@@ -43,7 +43,7 @@ body{
     font-size: 60px;
     color: white;
 }
-.city-temp h1{
+.city-temp h1,.feels-temp h1{
     font-size: 40px;
     color: white;
 }
@@ -56,4 +56,5 @@ body{
     background-color: white;
     border-radius: 40px;
     padding: 0px 10px;
+    cursor: pointer;
 }
